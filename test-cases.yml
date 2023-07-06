@@ -1,0 +1,26 @@
+---
+- summary: |
+    Успешная авторизация пользователя через Git
+  requirement: |
+    На сайте можно авторизоваться через аккаут на гитхаб
+  prerequisites: |
+    Выполнена предварительная авторизация на гитхаб
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Sign up
+    - Нажимаем Sign up with Github
+  expected-result: |
+    Пользователь должен попасть на главную страницу
+
+- summary: |
+    Успешная авторизация пользователя через Discord
+  requirement: |
+  На сайте можно авторизоваться через аккаут на Discord
+  prerequisites:
+    Выполнена предварительная авторизация на discord
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Sign up
+    - Нажимаем Sign up with Discord
+  expected-result: |
+    Пользователь должен попасть на главную страницу
