@@ -1,0 +1,52 @@
+---
+- summary: |
+    Успешная авторизация пользователя через Git
+  status: pass
+
+- summary: |
+    Успешная авторизация пользователя через Discord
+  status: pass
+
+- summary: |
+    Успешная авторизация пользователя
+  status: pass
+
+- summary: | коммент оставила
+    При успешной регистрации на почту приходит письмо с подтверждением
+  status: pass
+
+- summary: |
+     При закрытии вкладки с сайтом авторизация сохраняется
+  status: pass
+
+- summary: |
+     Имеется уведомление об успешно выполненном входе на сайт
+  status: pass
+
+- summary: |
+     Все элементы таблицы выровнены посередине в разделе My setings
+  status: fail
+
+- summary: |
+     Успешное изменение юзернейма
+  status: pass
+
+- summary: |
+     Работает выбор количества пользователей на странице в Users rating
+  status: fail
+
+- summary: |
+     При поиске по имени в User rating число в Total entries соответствует количеству строк результата поиска
+  status: pass
+
+- summary: |
+     Стрелки перелистывания страниц в User rating выполнены в одном стиле
+  status: fail
+
+- summary: |
+     Указано общее количество страниц в User rating
+  status: fail
+
+- summary: |
+     Содержимое столбца User в User rating можно отсортировать
+  status: fail
