@@ -32,7 +32,7 @@
   status: pass
 
 - summary: |
-     Работает выбор количества пользователей на странице в Users rating
+     Работает нумерация количества пользователей на странице в Users rating
   status: fail
 
 - summary: |
