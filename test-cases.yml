@@ -144,7 +144,99 @@
    expected-result: |
     Стрелки перелистывания страниц в User rating выполнены в одном стиле
 
+- summary: |
+    Пользователь может создать игру с ботом
+  requirement: |
+    На сайте пользователь может успешно создать игру с ботом
+  prerequisites: |
+    Выполнена предварительная авторизация
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create invite
+  expected-result: |
+    Создана игра с ботом
 
+- summary: |
+    Пользователь может создать игру с другом
+  requirement: |
+    На сайте пользователь может успешно создать игру с ботом
+  prerequisites: |
+    Выполнена предварительная авторизация
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a friend
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Выбираем друга Ivanivanov
+    - Нажимаем Create invite
+  expected-result: |
+    Сообщение об игре отправлено пользователю 
+
+- summary: |
+    Пользователь может создать игру с другим пользователем
+  requirement: |
+    На сайте пользователь может успешно создать игру с другим пользователем
+  prerequisites: |
+    Выполнена предварительная авторизация
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with other users
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create invite
+  expected-result: |
+    Заявка на игру создана
+
+- summary: |
+    - Пользователь может прекратить игру с помощью кнопки "Give up"
+  requirement: |
+    Пользователь может прекратить игру в любой момент, нажав кнопку "Give up"
+  prerequisites: |
+    Выполнена предварительная авторизация.
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create invite
+    - Нажимаем "Give up"
+  expected-result: |
+    Игра прекращается. Пользователю засчитывается поражение
+
+- summary: |
+    Корректно работает перевод задания в игре с английского на русский
+  requirement: |
+    Пользователь может сделать перевод задания в игре с английского на русский
+  prerequisites: |
+    Выполнена предварительная авторизация.
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create invite
+    - В окне с заданием нажимаем "RU"
+  expected-result: |
+    Задание переведено на русский язык
+    
     
     
 
