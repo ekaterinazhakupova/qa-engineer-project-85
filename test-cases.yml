@@ -141,7 +141,7 @@
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Нажимаем на значок профиля в правом верхнем углу
     - Нажимаем Users rating 
-   expected-result: |
+  expected-result: |
     Стрелки перелистывания страниц в User rating выполнены в одном стиле
 
 - summary: |
