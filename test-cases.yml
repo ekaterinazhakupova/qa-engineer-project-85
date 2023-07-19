@@ -295,7 +295,36 @@
     - Нажимаем Check solution
   expected-result: |
     В окне Output появляется надпись Something went wrong! Please, write to dev team in our Mattermost
-    
+
+- summary: |
+    Если верно выполнить задание в игре игра завершится победой
+  requirement: |
+    При вводе кода, отвечающего условиям задачи, игра завершается победой пользователя
+  prerequisites: |
+    Выполнена предварительная авторизация.
+  test-data: |
+    Нет данных
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - rect_area
+    - В Tags не выбираем ничего
+    - Нажимаем Create battle
+    - В окне редактора кода вводим 
+    "const _ = require("lodash");
+const R = require("rambda");
+
+const solution = (width, length) => {
+  return width * length;
+};
+
+module.exports = solution;
+    - Нажимаем Check solution"
+  expected-result: |
+    Выходит модальное окно с надписью Woohoo, you're Champion!!!!!
     
     
 
