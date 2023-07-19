@@ -273,6 +273,28 @@
     - В окне с заданием нажимаем "RU"
   expected-result: |
     Задание переведено на русский язык
+
+- summary: |
+    Ввод невалидных данных в поле редактора кода 
+  requirement: |
+    При вводе невалидных данных в поле редактора во время игры появляется надпись, предлагающая связаться к командой разработки в Маттермост
+  prerequisites: |
+    Выполнена предварительная авторизация.
+  test-data: |
+    Нет данных
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 9 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create battle
+    - В окне редактора кода вводим Hello, world
+    - Нажимаем Check solution
+  expected-result: |
+    В окне Output появляется надпись Something went wrong! Please, write to dev team in our Mattermost
     
     
     
