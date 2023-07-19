@@ -36,7 +36,7 @@
   prerequisites: |
     Нет данных
   test-data: |
-    Нет данных
+    Емейл вводим новый
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Sign up
@@ -69,7 +69,7 @@
   requirement: |
     Авторизация сохранится если случайно закрыть вкладку
   prerequisites: |
-    Выполнена предварительная https://codebattle.hexlet.io/
+    Выполнена предварительная авторизация https://codebattle.hexlet.io/
   test-data: |
     Нет данных
   steps:
@@ -82,7 +82,7 @@
 - summary: |
     Имеется уведомление об успешно выполненном входе на сайт
   requirement: |
-    При входе на сайт появляется уведомление об успешно выполненном входе
+    При входе на сайт появляется окна в верхней части экрана с надписью "Successfully authenticated"
   prerequisites: |
     Нет данных
   test-data: |
