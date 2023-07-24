@@ -314,14 +314,14 @@
     - В Tags не выбираем ничего
     - Нажимаем Create battle
     - В окне редактора кода вводим 
-    'const _ = require("lodash");
-const R = require("rambda");
-
-const solution = (width, length) => {
-  return width * length;
-};
-
-module.exports = solution;'
+#    'const _ = require("lodash");
+#const R = require("rambda");
+#
+#const solution = (width, length) => {
+#  return width * length;
+#};
+#
+#module.exports = solution;'
     - Нажимаем Check solution
   expected-result: |
     Выходит модальное окно с надписью Woohoo, you're Champion!!!!!
@@ -364,14 +364,14 @@ module.exports = solution;'
     - В Tags не выбираем ничего
     - Нажимаем Create battle
     - В окне редактора кода вводим 
-    'const _ = require("lodash");
-const R = require("rambda");
-
-const solution = (width, length) => {
-  return ;
-};
-
-module.exports = solution;'
+#    'const _ = require("lodash");
+#const R = require("rambda");
+#
+#const solution = (width, length) => {
+#  return ;
+#};
+#
+#module.exports = solution;'
     - Дожидаемся ответа противника
   expected-result: |
     Игра завершена. Противник победил
