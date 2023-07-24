@@ -397,5 +397,26 @@
     - Ожидаем что друг примет приглашение
   expected-result: |
     Приглашение отправлено и принято другом. Игра началась
+
+- summary: |
+    Во время игры можно сменить язык программирования
+  requirement: |
+    В процессе игры пользователь может сменить язык программирования
+  prerequisites: |
+    Выполнена предварительная авторизация
+  test-data: |
+    Нет данных
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - *
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 3 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create battle
+    - Меняем язык на Java 20
+  expected-result: |
+    Язык программирования изменен. Игра продолжается
     
 
