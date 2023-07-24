@@ -183,12 +183,12 @@
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Create a game
-    - Выбираем Level - *
+    - Выбираем Level - **
     - Выбираем Game time - with a bot
     - Выбираем Time control - 9 min
-    - Выбираем Choose task by name or tags - random task
+    - Выбираем Choose task by name or tags - case_identify
     - В Tags не выбираем ничего
-    - Нажимаем Create invite
+    - Нажимаем Create battle
   expected-result: |
     Создана игра с ботом
 
@@ -203,10 +203,10 @@
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Create a game
-    - Выбираем Level - *
+    - Выбираем Level - ***
     - Выбираем Game time - with a friend
     - Выбираем Time control - 9 min
-    - Выбираем Choose task by name or tags - random task
+    - Выбираем Choose task by name or tags - fancy_number
     - В Tags не выбираем ничего
     - Выбираем друга Ivanivanov
     - Нажимаем Create invite
