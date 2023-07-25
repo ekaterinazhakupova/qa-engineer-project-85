@@ -347,37 +347,6 @@
     Игра завершена. Таймер сменяется надписью GAME_OVER
 
 - summary: |
-    Игра завершается при поражении пользователя. #доработать, вставить верный код!!
-  requirement: |
-    Игра будет завершена если пользователь ввел неправильный код, а противник - правильный
-  prerequisites: |
-    Выполнена предварительная авторизация
-  test-data: |
-    Нет данных
-  steps:
-    - Заходим на сайт https://codebattle.hexlet.io/
-    - Нажимаем Create a game
-    - Выбираем Level - *
-    - Выбираем Game time - with a friend
-    - Выбираем Time control - 9 min
-    - Выбираем Choose task by name or tags - rect_area
-    - В Tags не выбираем ничего
-    - Нажимаем Create invite
-    - Дожидаемся ответа друга
-    - В окне редактора кода вводим 
-#    'const _ = require("lodash");
-#const R = require("rambda");
-#
-#const solution = (width, length) => {
-#  return ;
-#};
-#
-#module.exports = solution;'
-    - Дожидаемся ответа противника
-  expected-result: |
-    Игра завершена. Противник победил
-
-- summary: |
     Успешное присоединение друга к игре
   requirement: |
     Игра будет создана после того, как друг примет приглашение игры от пользователя
