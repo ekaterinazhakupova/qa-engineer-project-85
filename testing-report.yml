@@ -76,10 +76,6 @@
   status: pass
 
 - summary: |
-    Игра завершается при поражении пользователя
-  status: pass
-
-- summary: |
     Успешное присоединение друга к игре
   status: fail
 
