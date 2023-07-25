@@ -478,3 +478,23 @@
     - Нажимаем PLAY
   expected-result: |
     Выбранная игра воспроизводится как в проигрывателе
+
+- summary: |
+    Пользователь при создании игры может выбрать продолжительность игры
+  requirement: |
+    Пользователь может создать игру с продолжительностью от 3 до 60 минут
+  prerequisites: |
+    Выполнена предварительная авторизация
+  test-data: |
+    Нет данных
+  steps:
+    - Заходим на сайт https://codebattle.hexlet.io/
+    - Нажимаем Create a game
+    - Выбираем Level - **
+    - Выбираем Game time - with a bot
+    - Выбираем Time control - 35 min
+    - Выбираем Choose task by name or tags - random task
+    - В Tags не выбираем ничего
+    - Нажимаем Create battle
+  expected-result: |
+    Создана игра продолжительностью 35 минут
