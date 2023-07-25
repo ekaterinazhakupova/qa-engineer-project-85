@@ -206,7 +206,7 @@
     - Выбираем Level - ***
     - Выбираем Game time - with a friend
     - Выбираем Time control - 9 min
-    - Выбираем Choose task by name or tags - fancy_number
+    - Выбираем Choose task by name or tags - anagram_finder
     - В Tags не выбираем ничего
     - Выбираем друга Ivanivanov
     - Нажимаем Create invite
@@ -264,10 +264,10 @@
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Create a game
-    - Выбираем Level - *
+    - Выбираем Level - **
     - Выбираем Game time - with a bot
-    - Выбираем Time control - 9 min
-    - Выбираем Choose task by name or tags - random task
+    - Выбираем Time control - 15 min
+    - Выбираем Choose task by name or tags - apply_discount
     - В Tags не выбираем ничего
     - Нажимаем Create battle
     - В окне с заданием нажимаем "RU"
@@ -391,7 +391,7 @@
     - Выбираем Level - **
     - Выбираем Game time - with a friend
     - Выбираем Time control - 6 min
-    - Выбираем Choose task by name or tags - circle_point
+    - Выбираем Choose task by name or tags - apply_discount
     - В Tags не выбираем ничего
     - Выбираем друга Ivanivanov
     - Нажимаем Create invite
@@ -500,7 +500,7 @@
     Создана игра продолжительностью 35 минут
 
 - summary: |
-    Ввод 
+    Пользователь может создать игру с продолжительностью от 3 до 60 минут
   requirement: |
     Пользователь может создать игру с продолжительностью от 3 до 60 минут
   prerequisites: |
@@ -518,3 +518,5 @@
     - Нажимаем Create battle
   expected-result: |
     Создана игра продолжительностью 35 минут
+
+
