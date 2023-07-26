@@ -337,7 +337,7 @@
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Create a game
-    - Выбираем Level - *
+    - Выбираем Level - ***
     - Выбираем Game time - with a bot
     - Выбираем Time control - 3 min
     - Выбираем Choose task by name or tags - random task
@@ -379,7 +379,7 @@
   steps:
     - Заходим на сайт https://codebattle.hexlet.io/
     - Нажимаем Create a game
-    - Выбираем Level - ***
+    - Выбираем Level - *
     - Выбираем Game time - with other users
     - Выбираем Time control - 15 min
     - Выбираем Choose task by name or tags - random_task
@@ -402,7 +402,7 @@
     - Нажимаем Create a game
     - Выбираем Level - *
     - Выбираем Game time - with a bot
-    - Выбираем Time control - 3 min
+    - Выбираем Time control - 30 min
     - Выбираем Choose task by name or tags - random task
     - В Tags не выбираем ничего
     - Нажимаем Create battle
