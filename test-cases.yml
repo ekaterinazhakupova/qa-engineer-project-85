@@ -518,24 +518,3 @@
     - Нажимаем Save
   expected-result: |
     Никнейм невозможно сохранить
-
-- summary: |
-    Пользователь не может редактировать код соперника во время игры
-  requirement: |
-    Пользователь не может редактировать код соперника во время игры
-  prerequisites: |
-    Выполнена предварительная авторизация
-  test-data: |
-    Нет данных
-  steps:
-    - Заходим на сайт https://codebattle.hexlet.io/
-    - Нажимаем Create a game
-    - Выбираем Level - **
-    - Выбираем Game time - with a bot
-    - Выбираем Time control - 15 min
-    - Выбираем Choose task by name or tags - random task
-    - В Tags не выбираем ничего
-    - Нажимаем Create battle
-    - Пробуем ввести символы в оле ввода кода соперника
-  expected-result: |
-    Редактировать код соперника невозможно
